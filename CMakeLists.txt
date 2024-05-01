@@ -10,7 +10,7 @@ elseif (CMAKE_BUILD_TYPE MATCHES Trace)
     add_compile_definitions(ENABLE_TRACING)
 elseif (CMAKE_BUILD_TYPE MATCHES Debug)
     set(CMAKE_CXX_FLAGS "-g")
-endif ()
+endif ()jijii
 
 file(GLOB_RECURSE glCraftSources src/*.cpp src/*.h)
 add_executable(glCraft ${glCraftSources})
